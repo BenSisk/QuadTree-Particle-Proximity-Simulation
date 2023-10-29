@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-AssessmentKF5008_20_ant" class="navigator-link">
+              <span class="suite-name border-passed">AssessmentKF5008_20_ant</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-AssessmentKF5008_20_ant" class="navigator-link ">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-AssessmentKF5008_20_ant" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-AssessmentKF5008_20_ant" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-AssessmentKF5008_20_ant" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-AssessmentKF5008_20_ant" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-AssessmentKF5008_20_ant" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-AssessmentKF5008_20_ant" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">11 methods,   11 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-AssessmentKF5008_20_ant" class="hide-methods passed suite-AssessmentKF5008_20_ant"> (hide)</a> <!-- hide-methods passed suite-AssessmentKF5008_20_ant -->
+                      <a href="#" panel-name="suite-AssessmentKF5008_20_ant" class="show-methods passed suite-AssessmentKF5008_20_ant"> (show)</a> <!-- show-methods passed suite-AssessmentKF5008_20_ant -->
+                    </span>
+                    <div class="method-list-content passed suite-AssessmentKF5008_20_ant">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AssessmentKF5008_20_ant" title="org.KF5008.AssessmentA.StudentSimulationNGTest" class="method navigator-link" hash-for-method="testCorrectness">testCorrectness</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AssessmentKF5008_20_ant" title="org.KF5008.AssessmentA.MobilePhoneNGTest" class="method navigator-link" hash-for-method="testEquals">testEquals</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AssessmentKF5008_20_ant" title="org.KF5008.AssessmentA.StudentSimulationNGTest" class="method navigator-link" hash-for-method="testGenerate">testGenerate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AssessmentKF5008_20_ant" title="org.KF5008.AssessmentA.StudentSimulationNGTest" class="method navigator-link" hash-for-method="testGetAllPhones">testGetAllPhones</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AssessmentKF5008_20_ant" title="org.KF5008.AssessmentA.MobilePhoneNGTest" class="method navigator-link" hash-for-method="testHasMessage">testHasMessage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AssessmentKF5008_20_ant" title="org.KF5008.AssessmentA.MobilePhoneNGTest" class="method navigator-link" hash-for-method="testIsDead">testIsDead</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AssessmentKF5008_20_ant" title="org.KF5008.AssessmentA.MobilePhoneNGTest" class="method navigator-link" hash-for-method="testIsSperationLessThan">testIsSperationLessThan</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AssessmentKF5008_20_ant" title="org.KF5008.AssessmentA.StudentSimulationNGTest" class="method navigator-link" hash-for-method="testMake">testMake</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AssessmentKF5008_20_ant" title="org.KF5008.AssessmentA.MobilePhoneNGTest" class="method navigator-link" hash-for-method="testSetDead">testSetDead</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AssessmentKF5008_20_ant" title="org.KF5008.AssessmentA.StudentSimulationNGTest" class="method navigator-link" hash-for-method="testSpeed">testSpeed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AssessmentKF5008_20_ant" title="org.KF5008.AssessmentA.MobilePhoneNGTest" class="method navigator-link" hash-for-method="testToString">testToString</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-AssessmentKF5008_20_ant -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-AssessmentKF5008_20_ant" class="panel AssessmentKF5008_20_ant">
+          <div class="suite-AssessmentKF5008_20_ant-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">org.KF5008.AssessmentA.StudentSimulationNGTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCorrectness">
+                  </a> <!-- testCorrectness -->
+                  <span class="method-name">testCorrectness</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGenerate">
+                  </a> <!-- testGenerate -->
+                  <span class="method-name">testGenerate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetAllPhones">
+                  </a> <!-- testGetAllPhones -->
+                  <span class="method-name">testGetAllPhones</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMake">
+                  </a> <!-- testMake -->
+                  <span class="method-name">testMake</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSpeed">
+                  </a> <!-- testSpeed -->
+                  <span class="method-name">testSpeed</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AssessmentKF5008_20_ant-class-passed -->
+          <div class="suite-AssessmentKF5008_20_ant-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">org.KF5008.AssessmentA.MobilePhoneNGTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testEquals">
+                  </a> <!-- testEquals -->
+                  <span class="method-name">testEquals</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testHasMessage">
+                  </a> <!-- testHasMessage -->
+                  <span class="method-name">testHasMessage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testIsDead">
+                  </a> <!-- testIsDead -->
+                  <span class="method-name">testIsDead</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testIsSperationLessThan">
+                  </a> <!-- testIsSperationLessThan -->
+                  <span class="method-name">testIsSperationLessThan</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSetDead">
+                  </a> <!-- testSetDead -->
+                  <span class="method-name">testSetDead</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testToString">
+                  </a> <!-- testToString -->
+                  <span class="method-name">testToString</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AssessmentKF5008_20_ant-class-passed -->
+        </div> <!-- panel AssessmentKF5008_20_ant -->
+        <div panel-name="test-xml-AssessmentKF5008_20_ant" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;AssessmentKF5008_20_ant&quot;&gt;
+  &lt;test name=&quot;TestNG tests&quot; preserve-order=&quot;false&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;org.KF5008.AssessmentA.MobilePhoneNGTest&quot;/&gt;
+      &lt;class name=&quot;org.KF5008.AssessmentA.StudentSimulationNGTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TestNG tests --&gt;
+&lt;/suite&gt; &lt;!-- AssessmentKF5008_20_ant --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-AssessmentKF5008_20_ant" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for AssessmentKF5008_20_ant</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">TestNG tests (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-AssessmentKF5008_20_ant" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for AssessmentKF5008_20_ant</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-AssessmentKF5008_20_ant" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for AssessmentKF5008_20_ant</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_AssessmentKF5008_20_ant');
+function tableData_AssessmentKF5008_20_ant() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(11);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testSpeed')
+data.setCell(0, 2, 'org.KF5008.AssessmentA.StudentSimulationNGTest')
+data.setCell(0, 3, 1877);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testCorrectness')
+data.setCell(1, 2, 'org.KF5008.AssessmentA.StudentSimulationNGTest')
+data.setCell(1, 3, 70);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testGenerate')
+data.setCell(2, 2, 'org.KF5008.AssessmentA.StudentSimulationNGTest')
+data.setCell(2, 3, 1);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testMake')
+data.setCell(3, 2, 'org.KF5008.AssessmentA.StudentSimulationNGTest')
+data.setCell(3, 3, 0);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testHasMessage')
+data.setCell(4, 2, 'org.KF5008.AssessmentA.MobilePhoneNGTest')
+data.setCell(4, 3, 0);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testSetDead')
+data.setCell(5, 2, 'org.KF5008.AssessmentA.MobilePhoneNGTest')
+data.setCell(5, 3, 0);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testIsSperationLessThan')
+data.setCell(6, 2, 'org.KF5008.AssessmentA.MobilePhoneNGTest')
+data.setCell(6, 3, 0);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testIsDead')
+data.setCell(7, 2, 'org.KF5008.AssessmentA.MobilePhoneNGTest')
+data.setCell(7, 3, 0);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testToString')
+data.setCell(8, 2, 'org.KF5008.AssessmentA.MobilePhoneNGTest')
+data.setCell(8, 3, 0);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testEquals')
+data.setCell(9, 2, 'org.KF5008.AssessmentA.MobilePhoneNGTest')
+data.setCell(9, 3, 0);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testGetAllPhones')
+data.setCell(10, 2, 'org.KF5008.AssessmentA.StudentSimulationNGTest')
+data.setCell(10, 3, 0);
+window.suiteTableData['AssessmentKF5008_20_ant']= { tableData: data, tableDiv: 'times-div-AssessmentKF5008_20_ant'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 seconds</span>
+              <div id="times-div-AssessmentKF5008_20_ant">
+              </div> <!-- times-div-AssessmentKF5008_20_ant -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-AssessmentKF5008_20_ant" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for AssessmentKF5008_20_ant</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-AssessmentKF5008_20_ant" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-AssessmentKF5008_20_ant" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.KF5008.AssessmentA.MobilePhoneNGTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpMethod</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testEquals</span>
+                <span class="method-start">5 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpMethod</span>
+                <span class="method-start">6 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpMethod</span>
+                <span class="method-start">6 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testHasMessage</span>
+                <span class="method-start">6 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testIsDead</span>
+                <span class="method-start">6 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpMethod</span>
+                <span class="method-start">7 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpMethod</span>
+                <span class="method-start">7 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpMethod</span>
+                <span class="method-start">7 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testIsSperationLessThan</span>
+                <span class="method-start">7 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSetDead</span>
+                <span class="method-start">7 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.KF5008.AssessmentA.StudentSimulationNGTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpMethod</span>
+                <span class="method-start">8 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.KF5008.AssessmentA.MobilePhoneNGTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testToString</span>
+                <span class="method-start">8 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.KF5008.AssessmentA.StudentSimulationNGTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testCorrectness</span>
+                <span class="method-start">9 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpMethod</span>
+                <span class="method-start">79 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testGenerate</span>
+                <span class="method-start">79 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpMethod</span>
+                <span class="method-start">81 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testGetAllPhones</span>
+                <span class="method-start">81 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpMethod</span>
+                <span class="method-start">82 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testMake</span>
+                <span class="method-start">82 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpMethod</span>
+                <span class="method-start">84 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSpeed</span>
+                <span class="method-start">84 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

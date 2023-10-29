@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="11" passed="11" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-01-15T12:57:47Z" name="AssessmentKF5008_20_ant" finished-at="2021-01-15T12:57:49Z" duration-ms="1966">
+    <groups>
+    </groups>
+    <test started-at="2021-01-15T12:57:47Z" name="TestNG tests" finished-at="2021-01-15T12:57:49Z" duration-ms="1966">
+      <class name="org.KF5008.AssessmentA.StudentSimulationNGTest">
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:org.KF5008.AssessmentA.StudentSimulationNGTest@27efef64]" started-at="2021-01-15T12:57:47Z" name="setUpMethod" finished-at="2021-01-15T12:57:47Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method signature="testCorrectness()[pri:0, instance:org.KF5008.AssessmentA.StudentSimulationNGTest@27efef64]" started-at="2021-01-15T12:57:47Z" name="testCorrectness" finished-at="2021-01-15T12:57:47Z" duration-ms="70" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCorrectness -->
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:org.KF5008.AssessmentA.StudentSimulationNGTest@27efef64]" started-at="2021-01-15T12:57:47Z" name="setUpMethod" finished-at="2021-01-15T12:57:47Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method signature="testGenerate()[pri:0, instance:org.KF5008.AssessmentA.StudentSimulationNGTest@27efef64]" started-at="2021-01-15T12:57:47Z" name="testGenerate" finished-at="2021-01-15T12:57:47Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGenerate -->
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:org.KF5008.AssessmentA.StudentSimulationNGTest@27efef64]" started-at="2021-01-15T12:57:47Z" name="setUpMethod" finished-at="2021-01-15T12:57:47Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method signature="testGetAllPhones()[pri:0, instance:org.KF5008.AssessmentA.StudentSimulationNGTest@27efef64]" started-at="2021-01-15T12:57:47Z" name="testGetAllPhones" finished-at="2021-01-15T12:57:47Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetAllPhones -->
+        <test-method signature="testMake()[pri:0, instance:org.KF5008.AssessmentA.StudentSimulationNGTest@27efef64]" started-at="2021-01-15T12:57:47Z" name="testMake" finished-at="2021-01-15T12:57:47Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMake -->
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:org.KF5008.AssessmentA.StudentSimulationNGTest@27efef64]" started-at="2021-01-15T12:57:47Z" name="setUpMethod" finished-at="2021-01-15T12:57:47Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method signature="testSpeed()[pri:0, instance:org.KF5008.AssessmentA.StudentSimulationNGTest@27efef64]" started-at="2021-01-15T12:57:47Z" name="testSpeed" finished-at="2021-01-15T12:57:49Z" duration-ms="1877" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSpeed -->
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:org.KF5008.AssessmentA.StudentSimulationNGTest@27efef64]" started-at="2021-01-15T12:57:47Z" name="setUpMethod" finished-at="2021-01-15T12:57:47Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+      </class> <!-- org.KF5008.AssessmentA.StudentSimulationNGTest -->
+      <class name="org.KF5008.AssessmentA.MobilePhoneNGTest">
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:org.KF5008.AssessmentA.MobilePhoneNGTest@57baeedf]" started-at="2021-01-15T12:57:47Z" name="setUpMethod" finished-at="2021-01-15T12:57:47Z" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method signature="testEquals()[pri:0, instance:org.KF5008.AssessmentA.MobilePhoneNGTest@57baeedf]" started-at="2021-01-15T12:57:47Z" name="testEquals" finished-at="2021-01-15T12:57:47Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEquals -->
+        <test-method signature="testIsDead()[pri:0, instance:org.KF5008.AssessmentA.MobilePhoneNGTest@57baeedf]" started-at="2021-01-15T12:57:47Z" name="testIsDead" finished-at="2021-01-15T12:57:47Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsDead -->
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:org.KF5008.AssessmentA.MobilePhoneNGTest@57baeedf]" started-at="2021-01-15T12:57:47Z" name="setUpMethod" finished-at="2021-01-15T12:57:47Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method signature="testHasMessage()[pri:0, instance:org.KF5008.AssessmentA.MobilePhoneNGTest@57baeedf]" started-at="2021-01-15T12:57:47Z" name="testHasMessage" finished-at="2021-01-15T12:57:47Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHasMessage -->
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:org.KF5008.AssessmentA.MobilePhoneNGTest@57baeedf]" started-at="2021-01-15T12:57:47Z" name="setUpMethod" finished-at="2021-01-15T12:57:47Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method signature="testSetDead()[pri:0, instance:org.KF5008.AssessmentA.MobilePhoneNGTest@57baeedf]" started-at="2021-01-15T12:57:47Z" name="testSetDead" finished-at="2021-01-15T12:57:47Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetDead -->
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:org.KF5008.AssessmentA.MobilePhoneNGTest@57baeedf]" started-at="2021-01-15T12:57:47Z" name="setUpMethod" finished-at="2021-01-15T12:57:47Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:org.KF5008.AssessmentA.MobilePhoneNGTest@57baeedf]" started-at="2021-01-15T12:57:47Z" name="setUpMethod" finished-at="2021-01-15T12:57:47Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method signature="testIsSperationLessThan()[pri:0, instance:org.KF5008.AssessmentA.MobilePhoneNGTest@57baeedf]" started-at="2021-01-15T12:57:47Z" name="testIsSperationLessThan" finished-at="2021-01-15T12:57:47Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsSperationLessThan -->
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:org.KF5008.AssessmentA.MobilePhoneNGTest@57baeedf]" started-at="2021-01-15T12:57:47Z" name="setUpMethod" finished-at="2021-01-15T12:57:47Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method signature="testToString()[pri:0, instance:org.KF5008.AssessmentA.MobilePhoneNGTest@57baeedf]" started-at="2021-01-15T12:57:47Z" name="testToString" finished-at="2021-01-15T12:57:47Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testToString -->
+      </class> <!-- org.KF5008.AssessmentA.MobilePhoneNGTest -->
+    </test> <!-- TestNG tests -->
+  </suite> <!-- AssessmentKF5008_20_ant -->
+</testng-results>
